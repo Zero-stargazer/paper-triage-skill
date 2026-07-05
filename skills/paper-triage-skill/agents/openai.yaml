@@ -1,0 +1,5 @@
+interface:
+  display_name: "Paper Triage"
+  short_description: "Turn a pile of candidate papers into a prioritized reading queue."
+  brand_color: "#2F6BFF"
+  default_prompt: "Use $paper-triage-skill to turn candidate papers into a reading queue: Deep read, Skim, Park, or Skip. Explain where to start reading and what must be verified in the original paper."
