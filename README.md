@@ -15,6 +15,20 @@ Paper pile -> AI Watson -> Deep read / Skim / Park / Skip
 Codename: **AI Watson**.  
 Watson organizes the case file before the real investigation begins.
 
+
+## 一句话
+
+- **给谁**：要开组会、要写综述、被导师丢来一摞 PDF 的硕博生与课题组。
+- **解决什么**：把"先读哪篇、从哪儿读、哪些直接跳过"变成一张**带理由**的优先队列，而不是从第一页硬读到最后。
+- **怎么验证**：每篇都必须给出分档理由、起读位置和"必须回原文核对的事项"；若结果里出现了你回原文找不到的 DOI／期刊／结论，说明这次输出无效——本技能明确禁止编造。
+
+## How to verify it is working
+
+- Every item carries a reason for its bucket (`Deep read` / `Skim` / `Park` / `Skip`) and where to start reading.
+- Every item lists what must be checked in the original paper before citing it.
+- No DOI, journal, author, or result is invented. If you cannot find a claim in the source, treat the run as failed.
+- The output is a reading plan with handoff material, not a literature review.
+
 ## What it does
 
 - Accepts paper titles, abstracts, PDF text snippets, DOI lists, citations, or a research direction.
